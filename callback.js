@@ -33,4 +33,4 @@ function createPost(post, callback_1, callback_2, callback_3) {
 }
 
 
-createPost({ 'title' : 'Post Three', 'body' : 'This is post three'}, removeFirstElement, modifyThirdElement, getPosts);
+createPost({ 'title' : 'Post Three', 'body' : 'This is post three'}, modifyThirdElement, removeFirstElement, getPosts);
